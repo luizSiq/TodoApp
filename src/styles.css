@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(234, 224, 224); 
+    max-width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: black;
+    font-weight: 300;
+    font-size: large;
+}
+
+div { 
+    width: 300px;
+    border: 15px solid rgb(118, 140, 228);
+    padding: 40px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label, input{   
+    margin-top: 20px;
+}
+
+.submit{
+    background-color: rgb(87, 241, 120);
+    border-style: outset;
+    height: 30px;
+    width: 100px;
+}

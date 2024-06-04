@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+</head>
+<body>
+    <div>
+
+        <h1>Adding a task:</h1>
+        <form method="post" name="taskInput" action="">
+            <label for="description">Description:</label><br>
+            <textarea name="description" id="description" rows="4" cols="35"></textarea><br>
+
+            <label>Completed status</label>
+            <input type="radio" id="completedTaskNo" name="completedTask" required>
+            <label for="completedTaskNo">No</label>
+
+            <input type="radio" id="completedTaskYes" name="completedTask" required>
+            <label for="completedTaskYes">Yes</label><br>
+
+            <input type="submit" id="submit"/>
+
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
